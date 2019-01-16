@@ -10,6 +10,17 @@ public class Solution {
 
     public static void displayClosestToTen(int a, int b) {
         // напишите тут ваш код
+        if(abs (a - 10 ) > abs (b - 10 ) ){
+            System.out.println(b);
+        }
+        else if (abs (a - 10 ) < abs (b - 10 ) ){
+            System.out.println(a);
+        }
+        else if  (abs (a - 10 ) == abs (b - 10 ) ){
+            System.out.println(a);
+        }
+        
+        
 
     }
 
